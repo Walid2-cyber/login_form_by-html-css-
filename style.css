@@ -1,0 +1,130 @@
+*
+  { 
+      list-style:none;
+     
+      box-sizing:border-box;
+      font-family:Comic;
+     
+  }
+    body
+        { 
+          font-family: Arial, Helvetica, sans-serif;
+          background:url('background.jpg');
+          background-repeat:no-repeat ;
+          background-size:cover;
+          background-position:center;
+          height: 100%;
+          width: 100%;
+              
+        }
+  
+  .top
+      { 
+        
+        margin-top: 10px;
+        display: flex;
+        
+      }
+      .top > h1
+       { 
+          margin-left: 10px;
+          
+      }
+  .top > input
+      { 
+        color: black;
+        background: white;
+        padding-left: 10px; 
+         display:flex;
+        align-items:center;
+         margin-left: 55px;
+         margin-top: 10px;
+         height:30px ;
+         width:400px;
+         border: 2px solid black;
+         border-radius:20px;
+         box-shadow: 10px  10px 10px black;
+      }
+    
+    nav > ul
+       {  
+        display: inline-block;
+         display:flex;
+         justify-content: flex-end;
+         margin-right: 60px;
+         color:white;
+         margin-top: -40px;
+         
+       }
+       ul > li
+         {   border-radius: 20px;
+          box-shadow: 10px  10px 10px black;
+          border:15px solid transparent;
+          margin : 10px 0px 0px 40px;
+         }
+        ul :hover
+          { 
+          
+            background:peru;       
+          }
+        main , h1 , footer
+            { 
+              
+              color:white;
+            }
+            main > .section
+                { 
+                  margin-left: 10px;
+                  text-size-adjust: 20px;
+                  display: block;
+                  height: 30px;
+                  margin-top: 60px;
+                }
+              .section > button
+                { 
+                  text-decoration: none;
+                  font-weight: bold;
+                  font-family:Arial, Helvetica, sans-serif;
+                  background: brown;
+                  height: 30px;
+                  width: 70px;
+                  margin: 50px;
+                  box-shadow: 10px  10px 10px black;
+                }
+              
+      main >  form
+             { 
+               font-size: x-large;
+               float: right;
+               margin-right: 100px;
+              margin-top: -60px;
+               background: transparent;
+               border:2px solid black ;
+               padding: 10px 5px;
+               text-align:center;
+               box-shadow: 10px  10px 10px black;
+               }
+     form > input
+               {  
+                 margin: 10px;
+                height: 30px;
+                width: 200px;
+               }
+              button
+                  { 
+                    box-shadow: 10px  10px 10px black;
+                    background: crimson;
+                  }
+            footer > a
+              {
+                display: flex;
+                justify-content:center;
+                align-items: flex-end;
+                margin-bottom:-300px;
+              }
+             
+
+
+          
+            
+    
